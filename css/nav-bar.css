@@ -17,15 +17,6 @@
 }
 
 .nav__notif-num {
-  background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  color: white;
-  font-weight: 600;
   position: absolute;
   transform: translate(20px, -10px);
 }
@@ -40,4 +31,12 @@
   border-radius: 3.5px;
   position: absolute;
   transform: translate(25px, -6px);
+}
+
+.nav__notif-num--sm {
+  justify-content: flex-end;
+}
+
+.nav__notif-dot--cog {
+  transform: translate(70px, -25px);
 }
